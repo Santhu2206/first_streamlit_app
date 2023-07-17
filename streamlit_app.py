@@ -51,7 +51,7 @@ except URLError as e:
 # streamlit.text(fruityvice_response.json()) # just write the data to the screen
 
 #don't run anything past here while we troubleshoot
-streamlit.stop()
+#streamlit.stop()
 
 streamlit.header("The fruit load list contains:")
 #snowflake related functions
